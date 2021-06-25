@@ -1,13 +1,13 @@
 #!/bin/bash
 # Standard shortcuts for my usual git configuration
 #
-# author = Giulio Calacoci <giulio.calacoci@2ndquadrant.it>
+# author = Giulio Calacoci <giulio.calacoci@enterprisedb.com>
 #
 # this is the final template of the .gitconfig file
 #
 # [user]
 # 	name = Giulio Calacoci
-# 	email = giulio.calacoci@2ndquadrant.it
+# 	email = giulio.calacoci@enterprisedb.com
 # [core]
 # 	editor = vim
 # [merge]
@@ -35,7 +35,7 @@
 
 # Who i'm and basic data
 git config --global user.name "Giulio Calacoci"
-git config --global user.email giulio.calacoci@2ndquadrant.com
+git config --global user.email giulio.calacoci@enterprisedb.comm
 
 # use vim and vimdiff for the sake of god!
 git config --global core.editor vim
@@ -51,7 +51,7 @@ git config --global alias.cp cherry-pick
 
 #from http://travisjeffery.com/b/2012/02/search-a-git-repo-like-a-ninja/
 #NOTE: (--break, --heading) does not work with git 1.7.4.4, but works with 1.7.10.2
-#git config --global alias.g "grep --break --heading --line-number"
+git config --global alias.g "grep --break --heading --line-number"
 
 # Colorized output:
 
